@@ -116,7 +116,7 @@ header nav a:hover::after {
   
 }
 
-#main {
+/* #main {
   
   display: flex;
   flex-direction: column;
@@ -124,8 +124,8 @@ header nav a:hover::after {
   justify-content: center;
   min-height: calc(100vh - 100px);
   
-  background-color: #f3f4f5;
-}
+  background-color: blue;
+} */
 
 
 /* Container that wraps both the iframe and the text content */

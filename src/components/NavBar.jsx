@@ -1,14 +1,14 @@
 const Navbar = () => {
   return (
-    <header className="fixed top-0 left-0 w-full z-[1000] h-[100px] bg-white shadow-md flex items-center justify-start px-[2%] mb-12">
+    <header className="fixed top-0 left-0 w-full z-[1000] h-[80px] bg-[#191b70] shadow-md flex items-center justify-start px-[2%] mb-12">
       {/* Brand */}
-      <div className="text-[1.8rem] font-bold flex items-center mr-10">
+      <div className="text-[1.8rem] font-bold flex items-center mr-10 text-white" >
         Nathan
       </div>
 
       {/* Nav */}
       <nav className="flex-1">
-        <ul className="flex justify-end items-center mr-10 space-x-6 text-base text-gray-800">
+        <ul className="flex justify-end items-center mr-10 space-x-6 text-base text-white">
           <li>
             <a
               href="#main"
@@ -27,7 +27,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#projects"
+              href="#project"
               className="relative pb-1 hover:text-blue-600 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-blue-600 after:transition-all after:duration-300 hover:after:w-full"
             >
               Projects

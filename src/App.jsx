@@ -1,24 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 import Footer from './components/footer'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import TechStack from './components/TechStack'
+import Navbar from './components/NavBar'
+
 import Experience from './components/Experience'
 import Contact from './components/Contacts'
-import Project from './components/Project'
+import Project from './SampleData/Projects'
+import HeroCard from './components/HeroCard'
+
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <TechStack />
-      <Experience />
+      <HeroCard />
       <Project />
+      <Experience />
       <Contact />
       <Footer />
     </>
