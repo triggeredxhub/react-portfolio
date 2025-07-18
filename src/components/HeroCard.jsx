@@ -38,6 +38,9 @@ const HeroCard = () => {
                             <img src="../../src/assets/icons/javascript.svg" alt="JavaScript" className="w-8 h-8" />
                             <img src="../../src/assets/icons/nodejs-icon.svg" alt="Node.js" className="w-8 h-8" />
                             <img src="../../src/assets/icons/flutter.svg" alt="Flutter" className="w-8 h-8" />
+                            <img src="../../src/assets/icons/react-dark.svg" alt="React" className="w-8 h-8" />
+                            <img src="../../src/assets/icons/vitejs.svg" alt="Vite.js" className="w-8 h-8" />
+                            <img src="../../src/assets/icons/tailwindcss-dark.svg" alt="Tailwind CSS" className="w-8 h-8" />
                         </div>
 
                         
