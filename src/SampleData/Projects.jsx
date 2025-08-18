@@ -1,4 +1,5 @@
 import ProjectCard from "../components/ProjectCard";
+import LMS_Image from "../../src/assets/image/project-1.png";
 
 const ProjectData = [
     {
@@ -7,7 +8,7 @@ const ProjectData = [
         role: "Full Stack Developer",
         description: "A centralized Learning Management System that connects students, teachers, and curriculum heads for efficient academic monitoring. It auto-generates e-classrooms based on enrollment to reduce manual invites and prevent outsider access.",
         techStack: ["Flutter", "Node.js", "MySQL", "Firebase"],
-        image: "../../src/assets/image/project-1.png",
+        image: LMS_Image,
         link: "https://drive.google.com/drive/folders/1B62-sKBeN3gJ3kQfc4fYRK6MyVQhdbQK"
         
         
