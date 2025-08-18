@@ -1,5 +1,5 @@
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
-import profileImage from "../assets/image/profile.jpg"; // update path if needed
+import profileImage from "../assets/image/profile.jpg"; // stays inside src/assets
 
 const HeroCard = () => {
     return (
@@ -26,31 +26,39 @@ const HeroCard = () => {
                             <FaLinkedin className="hover:text-blue-700 transition" />
                         </a>
                     </div>
-                    {/* tech stack icons */}
+
+                    {/* Tech stack icons */}
                     <div className="mt-8">
-                        
                         <h2 className="text-xl font-semibold mb-2">Tech Stack</h2>
                         <div className="flex flex-row flex-wrap justify-center md:justify-start gap-4">
-                            <img src="../../src/assets/icons/firebase.svg" alt="Firebase" className="w-8 h-8" />
-                            <img src="../../src/assets/icons/mysql.svg" alt="MySQL" className="w-8 h-8" />
-                            <img src="../../src/assets/icons/html.svg" alt="HTML5" className="w-8 h-8" />
-                            <img src="../../src/assets/icons/css-3.svg" alt="CSS3" className="w-8 h-8" />
-                            <img src="../../src/assets/icons/javascript.svg" alt="JavaScript" className="w-8 h-8" />
-                            <img src="../../src/assets/icons/nodejs-icon.svg" alt="Node.js" className="w-8 h-8" />
-                            <img src="../../src/assets/icons/flutter.svg" alt="Flutter" className="w-8 h-8" />
-                            <img src="../../src/assets/icons/react-dark.svg" alt="React" className="w-8 h-8" />
-                            <img src="../../src/assets/icons/vitejs.svg" alt="Vite.js" className="w-8 h-8" />
-                            <img src="../../src/assets/icons/tailwindcss-dark.svg" alt="Tailwind CSS" className="w-8 h-8" />
-                        </div>
+                            {/* Frontend & Backend */}
+                            <img src="/icons/html.svg" alt="HTML5" className="w-8 h-8" />
+                            <img src="/icons/css-3.svg" alt="CSS3" className="w-8 h-8" />
+                            <img src="/icons/javascript.svg" alt="JavaScript" className="w-8 h-8" />
+                            <img src="/icons/react-dark.svg" alt="React" className="w-8 h-8" />
+                            <img src="/icons/nodejs-icon.svg" alt="Node.js" className="w-8 h-8" />
+                            <img src="/icons/flutter.svg" alt="Flutter" className="w-8 h-8" />
+                            <img src="/icons/vitejs.svg" alt="Vite.js" className="w-8 h-8" />
+                            <img src="/icons/tailwindcss-dark.svg" alt="Tailwind CSS" className="w-8 h-8" />
 
-                        
+                            {/* Database */}
+                            <img src="/icons/firebase.svg" alt="Firebase" className="w-8 h-8" />
+                            <img src="/icons/mysql.svg" alt="MySQL" className="w-8 h-8" />
+
+                            {/* AWS Cloud */}
+                            <img src="/icons/aws-s3.svg" alt="AWS S3" className="w-8 h-8" />
+                            <img src="/icons/aws-ec2.svg" alt="AWS EC2" className="w-8 h-8" />
+                            <img src="/icons/aws-iam.svg" alt="AWS IAM" className="w-8 h-8" />
+                        </div>
                     </div>
+
+                    {/* Tools */}
                     <div className="mt-8">
                         <h3 className="text-xl font-semibold mb-2">Tools</h3>
                         <div className="flex flex-row flex-wrap justify-center md:justify-start gap-4">
-                            <img src="../../src/assets/icons/postman.svg" alt="Postman" className="w-8 h-8" />
-                            <img src="../../src/assets/icons/git.svg" alt="Git" className="w-8 h-8" />
-                            <img src="../../src/assets/icons/github.svg" alt="GitHub" className="w-8 h-8" />
+                            <img src="/icons/postman.svg" alt="Postman" className="w-8 h-8" />
+                            <img src="/icons/git.svg" alt="Git" className="w-8 h-8" />
+                            <img src="/icons/github.svg" alt="GitHub" className="w-8 h-8" />
                         </div>
                     </div>
                 </div>
