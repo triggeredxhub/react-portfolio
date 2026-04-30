@@ -1,6 +1,6 @@
 import { FaExternalLinkAlt } from 'react-icons/fa';
 
-const ProjectCard = ({ id, title, role, description, techStack, image, link }) => {
+const ProjectCard = ({ title, role, description, techStack, image, link }) => {
     return (
         <div className='shared-container' id='project'>
             <div className='flex flex-col md:flex-row gap-8'>
