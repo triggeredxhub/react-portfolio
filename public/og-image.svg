@@ -1,0 +1,11 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <circle cx="205" cy="118" r="220" fill="#E6F4FB"/>
+  <circle cx="1052" cy="525" r="180" fill="#A7D8F0" fill-opacity="0.45"/>
+  <rect x="90" y="86" width="1020" height="458" rx="36" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="2"/>
+  <text x="138" y="226" fill="#0A0A0A" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="8">FULL-STACK &amp; MOBILE DEVELOPER</text>
+  <text x="138" y="332" fill="#0A0A0A" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700">Jose Nathaniel P. Antonio</text>
+  <text x="138" y="404" fill="#0A0A0A" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="400">Mobile apps, scalable APIs, AI features, and automation workflows.</text>
+  <rect x="138" y="455" width="300" height="58" rx="29" fill="#0A0A0A"/>
+  <text x="184" y="492" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="600">San Pablo City, Laguna, PH</text>
+</svg>
